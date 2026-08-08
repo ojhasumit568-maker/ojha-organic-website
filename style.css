@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #f5fff0;
+}
+
+header {
+    background: green;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+button {
+    margin-top: 30px;
+    background: green;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.about{
+    margin:40px 20px;
+    padding:30px;
+    background:white;
+    border-radius:15px;
+}
+
+.about h2{
+    color:green;
+    font-size:30px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+.products{
+    margin:40px 20px;
+    text-align:center;
+}
+
+.products h2{
+    color:green;
+    font-size:30px;
+}
+
+.product-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 10px #ccc;
+}
+
+.card h3{
+    color:green;
+}
+.contact{
+    margin:40px 20px;
+    padding:30px;
+    background:#e8f5e9;
+    border-radius:15px;
+}
+
+.contact h2{
+    color:green;
+    font-size:30px;
+}
+
+.contact p{
+    font-size:18px;
+}
+footer{
+    background:green;
+    color:white;
+    padding:15px;
+    margin-top:40px;
+}
+@media(max-width:600px){
+
+    header h1{
+        font-size:30px;
+    }
+
+    .product-box{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:80%;
+    }
+
+    button{
+        font-size:16px;
+    }
+
+}
+nav{
+    margin-bottom:20px;
+}
+
+nav{
+    background:green;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-size:18px;
+}
+header img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+    border:3px solid white;
+}
+header{
+    position:relative;
+}
+.hero{
+    background-image: url("farm.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height:350px;
+    padding:80px 20px;
+    text-align:center;
+    color:white;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.hero button{
+    margin-top:20px;
+}
+header{
+    background:green;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-bottom:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+}
+header{
+    background:green;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-bottom:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+}
+.phone{
+    color:#222;
+    font-size:20px;
+    font-weight:bold;
+}
+.contact{
+    color:#222;
+}
+whatsapp-btn{
+    background:#25D366;
+    color:white;
+    font-weight:bold;
+    padding:12px 25px;
+    border-radius:25px;
+    font-size:18px;
+}
+
+.whatsapp-btn:hover{
+    background:#128C7E;
+}
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.whatsapp-btn i{
+    font-size:22px;
+    margin-right:8px;
+}
+.about{
+    color:#222;
+    background:white;
+}
+
+.about h2{
+    color:green;
+}
+
+.about p{
+    color:#333;
+    font-size:18px;
+    line-height:1.6;
+}
+.card{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 10px #ccc;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.card h3{
+    color:green;
+    font-size:24px;
+}
+
+.card h4{
+    color:#e67e22;
+    font-size:20px;
+}
+
+.card button{
+    background:green;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+}
